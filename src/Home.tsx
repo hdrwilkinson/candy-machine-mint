@@ -170,6 +170,12 @@ const Home = (props: HomeProps) => {
 
   return (
     <main>
+      <div className="background">
+        <div className="stars"></div>
+        <div className="twinkling"></div>
+        <div className="stars"></div>
+      </div>
+
       <div id="wallet-button">
         <WalletMultiButton style={{ fontFamily: "inherit" }} />
       </div>
